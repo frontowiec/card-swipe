@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Title</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #698FF9;
+            transition: all 0.2s ease-in-out;
+
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .square {
+            display: flex;
+            width: 280px;
+            height: 420px;
+            border-radius: 5px;
+            margin: 0 24px;
+
+            transition: all 0.2s ease-in-out;
+        }
+
+        .center {
+            height: 450px;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="square" style="background-color: #e25046"></div>
+    <div class="square center" style="background-color: #F8E170"></div>
+    <div class="square" style="background-color: #68b865"></div>
+</div>
+
+<script src="./bower_components/hammerjs/hammer.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>

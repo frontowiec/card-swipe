@@ -1,0 +1,20 @@
+{
+  "name": "touched-events",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Marcin Sirocki <marcinsirocki@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "hammerjs": "hammer#^2.0.8"
+  }
+}
